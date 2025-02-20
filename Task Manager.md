@@ -1,6 +1,6 @@
 # Group 2 Project Task Manager
 
-| **Names**      |  |
+| **Names**      | Jake, Kaitlyn, and Kai |
 |---------------|--|
 | **Theme**     | Altered Perception |
 | **Central Premise** | The player will experience an underwater world in mixed reality complete with floating interactables, fish, immersive sounds, and a fishing system if time permits. |
