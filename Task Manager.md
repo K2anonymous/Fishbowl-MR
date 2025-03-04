@@ -14,8 +14,8 @@
 | Task 3    | Locate assets <br>• Fish, corals, plants, etc. <br>• Animated!<br>• Kaitlyn leads |
 | Task 4    | Create water shader <br>• Light effects <br>• Blue color<br>• Jake leads |
 | Task 5    | Create animation path for fishies <br>• Should be roughly circular with some variation <br>• Kai leads|
-| Task 6    | Task description <br>• Subpoint 1 <br>• Subpoint 2 <br>• Subpoint 3 |
-| Task 7    | Task description <br>• Subpoint 1 <br>• Subpoint 2 <br>• Subpoint 3 |
+| Task 6    | Create bubbles vfx  <br>• use particle system <br>• activate on movement <br>• Subpoint 3 |
+| Task 7    | Build out a control panel to conrtol aspects of the scene <br>• can toggle water shadder <br>• Can increase/decrease the number of fish spawning <br>• Can increase/decrease bubbles |
 | Task 8    | Task description <br>• Subpoint 1 <br>• Subpoint 2 <br>• Subpoint 3 |
 | Task 9    | Task description <br>• Subpoint 1 <br>• Subpoint 2 <br>• Subpoint 3 |
 | Task 10   | Task description <br>• Subpoint 1 <br>• Subpoint 2 <br>• Subpoint 3 |
