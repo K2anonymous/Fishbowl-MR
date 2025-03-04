@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 05c50227cf8cd5440ab9422a6f3a1b49
+guid: 5afd971a91348df498dbc2b8888924bc
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -33,11 +33,11 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: FF1_slowSwim (1)
-      takeName: FF1_slowSwim
-      internalID: 194970845801451032
+      name: AP_swimPose_up
+      takeName: AP_swimPose_up
+      internalID: 771117553145310315
       firstFrame: 0
-      lastFrame: 38.7
+      lastFrame: 6
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -62,19 +62,19 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: FF1_slowSwim
-      takeName: FF1_slowSwim
-      internalID: 4304255427130286471
+      name: AP_swimPose_down
+      takeName: AP_swimPose_down
+      internalID: 227611968516484200
       firstFrame: 0
-      lastFrame: 38.7
+      lastFrame: 6
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 1
-      loopBlend: 1
+      loopTime: 0
+      loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
       loopBlendPositionXZ: 0
@@ -91,9 +91,9 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: FF1_fastSwim
-      takeName: FF1_fastSwim
-      internalID: 4635482569239134009
+      name: AP_idleSwim_forward
+      takeName: AP_idleSwim_forward
+      internalID: -7452987522240165430
       firstFrame: 0
       lastFrame: 75
       wrapMode: 0
@@ -120,9 +120,9 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: FF1_leftPose
-      takeName: FF1_leftPose
-      internalID: 8745191173638696596
+      name: AP_swimPose_left
+      takeName: AP_swimPose_left
+      internalID: -4301118699573733274
       firstFrame: 0
       lastFrame: 75
       wrapMode: 0
@@ -149,9 +149,9 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: FF1_rightPose
-      takeName: FF1_rightPose
-      internalID: -3045900152142162732
+      name: AP_swimPose_right
+      takeName: AP_swimPose_right
+      internalID: 6072015234403106139
       firstFrame: 0
       lastFrame: 75
       wrapMode: 0
@@ -178,9 +178,9 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: FF1_downPose
-      takeName: FF1_downPose
-      internalID: -9126186254711919378
+      name: AP_fastSwim_forward
+      takeName: AP_fastSwim_forward
+      internalID: -3469628839035138601
       firstFrame: 0
       lastFrame: 75
       wrapMode: 0
@@ -207,9 +207,9 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: FF1_upPose
-      takeName: FF1_upPose
-      internalID: 4953346902888739931
+      name: AP_slowSwim_forward
+      takeName: AP_slowSwim_forward
+      internalID: 5260507771627942151
       firstFrame: 0
       lastFrame: 75
       wrapMode: 0
@@ -236,9 +236,9 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: FF1_death
-      takeName: FF1_death
-      internalID: 237492582605617733
+      name: AP_spin
+      takeName: AP_spin
+      internalID: -5729371481731942312
       firstFrame: 0
       lastFrame: 75
       wrapMode: 0
@@ -265,11 +265,98 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: FF1_flinch
-      takeName: FF1_flinch
-      internalID: -3903293633109052875
+      name: AP_barrelRoll
+      takeName: AP_barrelRoll
+      internalID: 310392015814718878
       firstFrame: 0
       lastFrame: 75
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: AP_scaredCurious
+      takeName: AP_scaredCurious
+      internalID: 7769692810697321734
+      firstFrame: 0
+      lastFrame: 106
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: AP_flinch
+      takeName: AP_flinch
+      internalID: -3516759807101336221
+      firstFrame: 0
+      lastFrame: 106
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: AP_death
+      takeName: AP_death
+      internalID: -8178518772162177648
+      firstFrame: 0
+      lastFrame: 106
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -296,7 +383,7 @@ ModelImporter:
     isReadable: 0
   meshes:
     lODScreenPercentages: []
-    globalScale: 50
+    globalScale: 100
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
@@ -351,7 +438,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 50
+    globalScale: 100
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0

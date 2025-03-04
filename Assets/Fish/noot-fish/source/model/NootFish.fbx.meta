@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 05c50227cf8cd5440ab9422a6f3a1b49
+guid: 4eddb6e75f60d594bbadc884871cf3ad
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -33,40 +33,11 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: FF1_slowSwim (1)
-      takeName: FF1_slowSwim
-      internalID: 194970845801451032
+      name: NF_idleSwim
+      takeName: NF_idleSwim
+      internalID: -3056973735227762618
       firstFrame: 0
-      lastFrame: 38.7
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 1
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: FF1_slowSwim
-      takeName: FF1_slowSwim
-      internalID: 4304255427130286471
-      firstFrame: 0
-      lastFrame: 38.7
+      lastFrame: 75
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -91,9 +62,9 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: FF1_fastSwim
-      takeName: FF1_fastSwim
-      internalID: 4635482569239134009
+      name: NF_slowSwim
+      takeName: NF_slowSwim
+      internalID: 2428026766583932559
       firstFrame: 0
       lastFrame: 75
       wrapMode: 0
@@ -120,9 +91,9 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: FF1_leftPose
-      takeName: FF1_leftPose
-      internalID: 8745191173638696596
+      name: NF_fastSwim
+      takeName: NF_fastSwim
+      internalID: -4668542106714159720
       firstFrame: 0
       lastFrame: 75
       wrapMode: 0
@@ -149,9 +120,9 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: FF1_rightPose
-      takeName: FF1_rightPose
-      internalID: -3045900152142162732
+      name: NF_leftPose
+      takeName: NF_leftPose
+      internalID: -8709772098100087901
       firstFrame: 0
       lastFrame: 75
       wrapMode: 0
@@ -178,9 +149,9 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: FF1_downPose
-      takeName: FF1_downPose
-      internalID: -9126186254711919378
+      name: NF_rightPose
+      takeName: NF_rightPose
+      internalID: 663084007637165603
       firstFrame: 0
       lastFrame: 75
       wrapMode: 0
@@ -207,9 +178,9 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: FF1_upPose
-      takeName: FF1_upPose
-      internalID: 4953346902888739931
+      name: NF_downPose
+      takeName: NF_downPose
+      internalID: -3131476443160849816
       firstFrame: 0
       lastFrame: 75
       wrapMode: 0
@@ -236,9 +207,9 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: FF1_death
-      takeName: FF1_death
-      internalID: 237492582605617733
+      name: NF_upPose
+      takeName: NF_upPose
+      internalID: 364747490975470596
       firstFrame: 0
       lastFrame: 75
       wrapMode: 0
@@ -265,9 +236,67 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: FF1_flinch
-      takeName: FF1_flinch
-      internalID: -3903293633109052875
+      name: NF_eatFish
+      takeName: NF_eatFish
+      internalID: 4237304708792103795
+      firstFrame: 0
+      lastFrame: 75
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: NF_death
+      takeName: NF_death
+      internalID: 6918782677393876703
+      firstFrame: 0
+      lastFrame: 75
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: NF_flinch
+      takeName: NF_flinch
+      internalID: 2443596318068760737
       firstFrame: 0
       lastFrame: 75
       wrapMode: 0
@@ -296,7 +325,7 @@ ModelImporter:
     isReadable: 0
   meshes:
     lODScreenPercentages: []
-    globalScale: 50
+    globalScale: 100
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
@@ -351,7 +380,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 50
+    globalScale: 100
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0

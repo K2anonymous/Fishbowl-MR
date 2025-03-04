@@ -33,7 +33,7 @@ public class NVBoids : MonoBehaviour
     [Range(0, 100)] public float smoothChFrequency = 0.5f;
 
     [Header("Bird Settings")]
-    public GameObject birdPref;
+    public GameObject [] birdPref;
     [Range(1, 9999)] public int birdsNum = 10;
     [Range(0, 150)] public float birdSpeed = 1;
     [Range(0, 100)] public int fragmentedBirds = 10;
@@ -268,7 +268,8 @@ public class NVBoids : MonoBehaviour
 
         for (int b = 0; b < birdsNum; b++)
         {
-            birdsTransform[b] = Instantiate(birdPref, thisTransform).transform;
+            int rand = Random.Range(0, birdPref.Length);
+            birdsTransform[b] = Instantiate(birdPref[rand], thisTransform).transform;
             Vector3 lpv = Random.insideUnitSphere * fragmentedBirds;
             birdsTransform[b].localPosition = rdTargetPos[b] = new Vector3(lpv.x, lpv.y * fragmentedBirdsYLimit, lpv.z);
             birdsTransform[b].localScale = Vector3.one * Random.Range(scaleRandom.x, scaleRandom.y);
