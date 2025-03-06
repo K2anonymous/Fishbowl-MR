@@ -3,21 +3,24 @@ using UnityEngine.UI;
 
 public class FishController : MonoBehaviour
 {
-    public GameObject[] fishObjects; // Assign all fish in Inspector
-    public Slider fishSlider;
+    public Slider fishSlider; // The slider to control the bird count
+    private NVBoids nvBoids; // Reference to NVBoids script
 
     void Start()
     {
-        fishSlider.onValueChanged.AddListener(UpdateFishCount);
+        // Find the NVBoids script (assuming it's attached to the same GameObject or another GameObject)
+        nvBoids = FindObjectOfType<NVBoids>();
+
+        // Add listener to the slider to update BirdsNum in NVBoids when slider changes
+        fishSlider.onValueChanged.AddListener(UpdateBirdsNum);
     }
 
-    void UpdateFishCount(float value)
+    void UpdateBirdsNum(float value)
     {
-        int fishToShow = Mathf.RoundToInt(value);
-
-        for (int i = 0; i < fishObjects.Length; i++)
+        if (nvBoids != null)
         {
-            fishObjects[i].SetActive(i < fishToShow);
+            // Update the BirdsNum in NVBoids based on the slider value
+            nvBoids.birdsNum = Mathf.RoundToInt(value);
         }
     }
 }
