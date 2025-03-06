@@ -19,11 +19,3 @@
 | Task 8    | Animate fish in the Boids System <br>• Fish should move and swim <br>• Kai leads |
 | Task 9    | Add cool alien whales to a unique Boids System <br>• They should move slower than the fish <br>• They should be bigger than the fish <br>• Kai leads |
 | Task 10   | Final merges, build, and project consolidation <br>• The project should run on a Meta Quest 3 headset! <br>• Jake leads |
-| Task 11   | Task description <br>• Subpoint 1 <br>• Subpoint 2 <br>• Subpoint 3 |
-| Task 12   | Task description <br>• Subpoint 1 <br>• Subpoint 2 <br>• Subpoint 3 |
-| Task 13   | Task description <br>• Subpoint 1 <br>• Subpoint 2 <br>• Subpoint 3 |
-| Task 14   | Task description <br>• Subpoint 1 <br>• Subpoint 2 <br>• Subpoint 3 |
-| Task 15   | Task description <br>• Subpoint 1 <br>• Subpoint 2 <br>• Subpoint 3 |
-| Task 16   | Task description <br>• Subpoint 1 <br>• Subpoint 2 <br>• Subpoint 3 |
-| Task 17   | Task description <br>• Subpoint 1 <br>• Subpoint 2 <br>• Subpoint 3 |
-| Task 18   | Task description <br>• Subpoint 1 <br>• Subpoint 2 <br>• Subpoint 3 |
